@@ -11,7 +11,13 @@
         "sort-packages": true
     },
     "require": {
-        "magento/product-community-edition": "2.3.0"
+        "magento/module-catalog-sample-data-venia": "dev-master@dev",
+        "magento/module-configurable-sample-data-venia": "dev-master@dev",
+        "magento/module-customer-sample-data-venia": "dev-master@dev",
+        "magento/module-sales-sample-data-venia": "dev-master@dev",
+        "magento/module-tax-sample-data-venia": "dev-master@dev",
+        "magento/product-community-edition": "2.3.0",
+        "magento/sample-data-media-venia": "dev-master@dev"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.13.0",
@@ -59,12 +65,36 @@
     },
     "version": "2.3.0",
     "minimum-stability": "stable",
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        "module-catalog-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-catalog-sample-data-venia.git"
+        },
+        "module-configurable-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-configurable-sample-data-venia.git"
+        },
+        "module-customer-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-customer-sample-data-venia.git"
+        },
+        "module-sales-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-sales-sample-data-venia.git"
+        },
+        "module-tax-sample-data-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/module-tax-sample-data-venia.git"
+        },
+        "sample-data-media-venia": {
+            "type": "github",
+            "url": "git@github.com:PMET-public/sample-data-media-venia.git"
         }
-    ],
+    },
     "extra": {
         "magento-force": "override"
     }
