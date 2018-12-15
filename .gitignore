@@ -96,3 +96,6 @@ Gruntfile.js.sample
 LICENSE.txt
 LICENSE_AFL.txt
 app/etc/
+app/autoload.php
+app/bootstrap.php
+app/functions.php
